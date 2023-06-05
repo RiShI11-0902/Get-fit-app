@@ -26,6 +26,7 @@ const FullDetails = () => {
       <div>
         <img src={data.gifUrl} alt="Demo" className='w-[100%]' />
       </div>
+<p className='font-medium w-fit mx-auto p-5 mt-8 underline '>Note: IT TAKES SOME TIME TO LOAD THE DEMO OF EXCERCISES</p>
       <div className='text-center w-fit ml-12'>
         <p className='text-2xl mt-10 font-extrabold'>Name: {data.name} </p>
         <p className='text-2xl mt-10'> <span>Body Part: </span>{data.bodyPart} </p>
