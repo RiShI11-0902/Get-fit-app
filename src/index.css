@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  /* .container {
+    background-image: url('assets/pexels-ivan-samkov-4164770.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 10%; */
+    
+ 
+
+ /* @media  (max-width: 768px) {
+  .container{
+      background-image: url("assets/pexels-leon-ardho-1552108.jpg");
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  } */
+
+  .vibrate1{
+    animation: myAnim 1s ease 0s infinite normal forwards;
+  }
+  @keyframes myAnim {
+    0% {
+      transform: translate(0);
+    }
+  
+    20% {
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      transform: translate(2px, 2px);
+    }
+  
+    80% {
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  .vibrate2{
+    animation: myAnim2 1s ease 0s infinite reverse forwards;
+  }
+  @keyframes myAnim2 {
+    0% {
+      transform: translate(0);
+    }
+  
+    20% {
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      transform: translate(2px, 2px);
+    }
+  
+    80% {
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
