@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <div className="navbar container  ">
 
-                <div className='top-0 flex items-center left-0 w-full  fixed z-10 justify-around my-8'>
+                <div className='top-0 flex items-center left-0 w-fit space-x-10 ml-9  fixed z-10 justify-around my-8'>
                     <div className="left">
                         <div className="logo text-black text-4xl font-extrabold w-36">
                             GET FIIT.
@@ -47,7 +47,7 @@ const Navbar = () => {
                                     <div className=" absolute bg-slate-100 w-full top-14 left-0 ">
                                         <div className="nav-items my-4">
 
-                                            <ul className="flex flex-col text-center p-5 space-y-9 text-black mt-24">
+                                            <ul className="flex flex-col text-center p-5 space-y-9 text-black mt-12">
                                                 <li>Home</li>
                                                 <li>About</li>
                                                 <li>Contact</li>
