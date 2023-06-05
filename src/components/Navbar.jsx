@@ -74,7 +74,7 @@ const Navbar = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='w-[20rem] relative'>
+                    <div className='w-[20rem] relative mr-20'>
                         <img src={img} alt="" className='hidden md:block vibrate1' />
                         <img src={img2} className='absolute right-60 -top-16 hidden md:block vibrate2' alt="" />
 
