@@ -26,7 +26,7 @@ const ExcersisesDetails = () => {
   return (
     <>
 
-      <div className='grid gap-6 grid-cols-2 md:grid-cols-5 mt-5 fixed top-0 left-10 bg-slate-300 bg-opacity-70  w-full mx-auto p-5'>
+      <div className='grid gap-6 grid-cols-2 md:grid-cols-5 mt-5  top-0 left-12   mx-auto p-5 w-fit'>
         {
           BodyPartList.map((i) => {
             return <div className=''>
@@ -38,10 +38,10 @@ const ExcersisesDetails = () => {
           })
         }
       </div>
-      <div className="list mt-56">
-        <p className='font-medium w-fit mx-auto mt-8 underline '>Note: IT TAKES SOME TIME TO LOAD THE DEMO OF EXCERCISES</p>
+      <div className="list mt-[5rem]">
+        <p className='font-medium w-fit mx-auto p-5 mt-8 underline '>Note: IT TAKES SOME TIME TO LOAD THE DEMO OF EXCERCISES</p>
 
-        <div className='md:grid md:grid-cols-3 md:gap-4'>
+        <div className='md:grid md:grid-cols-3 p-4 md:gap-4'>
         { 
             data.map((i) => {
             return <div className='flex  p-3 mt-10 rounded-lg shadow-2xl shadow-purple-400'>

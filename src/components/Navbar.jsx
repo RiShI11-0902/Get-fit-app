@@ -65,9 +65,9 @@ const Navbar = () => {
                         }
                     </div>
                 </div>
-                <div className='md:flex md:flex-row items-center  justify-evenly'>
+                <div className='md:flex md:flex-row p-10  lg:-mt-20 items-center'>
                     <div className="p-8 ">
-                        <div className=" p-4 pb-16 mt-10 mb-40 md:w-[60%] lg:w-[60%] md:p-16  md:mt-10 lg:mt-20 md:pb-44 md:-mr-72">
+                        <div className=" p-4 pb-16 mt-10 mb-40 md:w-[60%] lg:w-[50%] md:p-16  md:mt-10 lg:mt-20 md:pb-44 md:-mr-72">
                             <p className="text-xl mt-20 title text-black font-extrabold md:text-3xl text-center"> Remember who you're doing it for. It's Your Workout, Your Time, Your Body, Own It.</p>
                             <button type="button" className="relative mx-36 px-8 py-4 ml-20 mt-9 overflow-hidden  font-semibold rounded dark:bg-gray-100 dark:text-gray-900 bg-white">REGISTER
                                 <span className="absolute top-0 right-0 px-5 py-1 text-xs tracking-wider text-center uppercase whitespace-no-wrap origin-bottom-left transform rotate-45 -translate-y-full translate-x-1/3 bg-black text-black dark:bg-violet-400">NOW</span>
