@@ -65,7 +65,7 @@ const Navbar = () => {
                         }
                     </div>
                 </div>
-                <div className='md:flex md:flex-row p-10  lg:-mt-20 items-center'>
+                <div className='md:flex md:flex-row p-10  lg:-mt-10 items-center'>
                     <div className="p-8 ">
                         <div className=" p-4 pb-16 mt-10 mb-40 md:w-[60%] lg:w-[50%] md:p-16  md:mt-10 lg:mt-20 md:pb-44 md:-mr-72">
                             <p className="text-xl mt-20 title text-black font-extrabold md:text-3xl text-center"> Remember who you're doing it for. It's Your Workout, Your Time, Your Body, Own It.</p>
